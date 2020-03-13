@@ -17,7 +17,7 @@
 		b. include_val_structure: Boolean, indicating if we should propagate structure information in the MHA layers
 		c. word_module_version: Either 0,1,2,3 or 4, {0: max_pooling, 1: average_pooling, 2: max_pooling_w_attention, 3: average_pooling_w_attention, 4: attention}. The version used in PLAN and STAPLAN is 2, HiT-STAPLAN is 4. 
 		d. post_module_version: Either 0,1,2 or 3, {0: average_pooling, 1: condense_into_fix_vector, 2: first_vector, 3: attention}. The version used in all 3 models in the paper is 3. 
-		e. vary_LR: Boolean, indicating if we should use a triangular learning rate (Increases initially then decreases after a certain point)
+		e. vary_LR: Boolean, indicating if we should use increases the LR initially then decreases after a certain point
 		f. ff_word: Boolean, indicating if we should finetune the token embedding
 		g. ff_post: Boolean, indicating if we should finetune the post embedding
 		- To run the training code, run the command "python train.py"
@@ -31,7 +31,10 @@
 	        - Models to be selected could be found in ./logs after training
 	- The path of the testing data
 	- The path of the output from testing
- 
 
 # Contact:
 	Please contact Serena (klingmin@dso.org.sg) for any enquiries. Thank you!
+
+# Acknowledgments
+	* Chieu Hai Leong (DSO National Laboratories) and Jiang Jing, Qian Zhong and Tran Anh (SMU) for the guidance and mentorship
+	* My colleagues from DSO National Laboratories for their advices and discussions
