@@ -6,4 +6,4 @@
 
 
 # CONTACT ME:
-	Please contact us at klingmin@dso.org.sg for any enquiries. Thank you!
+	Please contact <a href="mailto:klingmin@dso.org.sg">Serena</a>.<br> for any enquiries. Thank you!
