@@ -2,6 +2,9 @@
 	This is the source code for Interpretable Rumor Detection in Microblogs by Attending to User Interactions by Ling Min Serena Khoo, Hai Leong Chieu, Zhong Qian, Jing Jiang. Published in Thirty-Fourth AAAI Conference on Artificial Intelligence 2020.
 	Archive: https://arxiv.org/abs/2001.10667
 
+# Data
+	The processed data for running the codes could be found in https://www.dropbox.com/sh/w3bh1crt6estijo/AAD9p5m5DceM0z63JOzFV7fxa?dl=0
+
 # Dependencies
 	This set of code was developed in python3 and pytorch. The packages and their respective versions are state in requirements.txt
 	To install the dependencies, run pip install -r requirements.txt
